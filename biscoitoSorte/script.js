@@ -1,13 +1,6 @@
+const minhaImagem = document.querySelector('#minha-imagem');
 
-const cookieImg = document.querySelector('#cookieImg')
-const luckImg = document.querySelector('#luckImg')
-const newLuck = document.querySelector('#newLuck')
-const card = document.querySelector('.container.card')
-
-  cookieImg.addEventListener('click', function(){
-
-    card.classList.add('hide') && luckImg.classList.remove('hide')
-  })
-
-
-
+minhaImagem.addEventListener('click', function() {
+  console.log('Imagem clicada!');
+  minhaImagem.classList.add('destaque');
+});

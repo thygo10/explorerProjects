@@ -8,6 +8,12 @@
   font-size: 62.5%;
 }
 
+
+.destaque {
+    border: 1px solid red;
+  }
+
+
 body {
   font-size: 1.6rem;
   height: 100vh;
@@ -72,6 +78,9 @@ body {
 height: 564px;
   
   background: #FFFFFF;
+
+  visibility: hidden;
+  opacity: 0;
   
 
   
